@@ -11,7 +11,8 @@ var config = {
   },
 
   sass: {
-    src: PROJECT_ROOT + 'example/sass/**/*.sass',
+    src: PROJECT_ROOT + 'example/sass/index.sass',
+    watch: PROJECT_ROOT + 'example/sass/**/*.sass',
     dest: PROJECT_ROOT + 'build/css',
   }
 };

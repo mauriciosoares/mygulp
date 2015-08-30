@@ -12,5 +12,5 @@ gulp.task('develop', function() {
   });
 
   gulp.start('scripts:develop');
-  gulp.watch(config.sass.src, ['sass:develop']);
+  gulp.watch(config.sass.watch, ['sass:develop']);
 });
